@@ -1,0 +1,46 @@
+ //signup
+ // const [error, seterror] = useState({username:false,email:false,password:false})
+
+    // const [data, setdata] = useState({ username: "", email: "", password: "" })
+    // const handleclick = () => {
+    //     document.getElementById("closeclick").click()
+    //     setTimeout(() => {
+    //         document.getElementById("my_modal_3").showModal();
+    //         <Login/>
+    //     }, 500);
+    // }
+
+    // const handlecOnChange = (e) => {
+    //     setdata({ ...data, [e.target.name]: e.target.value })
+    // }
+
+    // const handleOnSubmit = () => {
+    //     if(data.email=="" || data.password=="" || data.username=="")
+    //         {
+    //         setdata({ })
+    //         }
+    //     if (!data.username == "" || !data.email == "" || !data.password == "") {
+    //         Signuphandle(data.username, data.email, data.password);
+    //         document.getElementById("closeclick").click();
+    //         setTimeout(() => {
+    //             document.getElementById("my_modal_3").showModal();
+    //         }, 1000);
+    //     }
+    // }
+
+
+//login
+    onChange={handlecOnChange} value={(props.email)?props.email:data.email}
+
+    const [data, setdata] = useState({email: "", password: "" })
+  const handleSubmit=()=>
+  {
+    if (!data.email == "" || !data.password == "") {
+      Loginhandle( data.email, data.password);
+      document.getElementById("closeclicklogin").click();
+    }
+  }
+
+  const handlecOnChange = (e) => {
+    setdata({ ...data, [e.target.name]: e.target.value })
+  }

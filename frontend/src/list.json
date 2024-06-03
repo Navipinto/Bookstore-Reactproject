@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 0,
+    "category": "free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content":""
+  },
+  {
+    "id": 2,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 800,
+    "category": "Premium",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 3,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 0,
+    "category": "free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740", 
+    "content":""
+  },
+  {
+    "id": 4,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 0,
+    "category": "free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 5,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 499,
+    "category": "Premium",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 6,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 0,
+    "category": "free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 7,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 0,
+    "category": "free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 8,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 290,
+    "category": "Premium",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 9,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 0,
+    "category": "free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 10,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 300,
+    "category": "Premium",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 11,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 0,
+    "category": "free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 12,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 500,
+    "category": "Premium",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 13,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 499,
+    "category": "Premium",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 14,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 499,
+    "category": "Premium",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 15,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 499,
+    "category": "Premium",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 16,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 499,
+    "category": "Premium",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  },
+  {
+    "id": 17,
+    "title": "Stroy Book",
+    "description": "This is the description of the book and here you go",
+    "price": 499,
+    "category": "Premium",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1715263872~exp=1715267472~hmac=aaa7d99138a01488fece931a3a1467e46bbcb7e916f4e841359056817f0956fb&w=740",
+    "content": ""
+  }
+]
