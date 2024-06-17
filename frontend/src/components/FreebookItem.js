@@ -8,7 +8,7 @@ function FreebookItem(props) {
     }
   return (
     <>
-      <div className='py-5 hover:scale-105 duration-300 xl:w-96 me-3'>
+      <div className='py-5 hover:scale-105 duration-300 w-fit me-3'>
         <div className="card bg-gray-100 shadow-xl py-2">
           <figure><img src={props.image} className='w-32 h-44' alt="image" /></figure>
           <div className="card-body">
