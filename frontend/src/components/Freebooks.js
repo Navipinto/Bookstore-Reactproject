@@ -10,7 +10,7 @@ function Freebooks() {
     const [freebook, setfreebook] = useState([])
     useEffect(() => {
       const Getallbooks = async () => {
-        const response = await fetch(`http://localhost:4000/api/Books/getallbooks`, {
+        const response = await fetch(`https://bookstore-reactproject.onrender.com/api/Books/getallbooks`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
