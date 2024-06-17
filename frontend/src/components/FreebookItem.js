@@ -8,7 +8,7 @@ function FreebookItem(props) {
     }
   return (
     <>
-      <div className='py-5 hover:scale-105 duration-300 w-96'>
+      <div className='py-5 hover:scale-105 duration-300 xl:w-96 me-3'>
         <div className="card bg-gray-100 shadow-xl py-2">
           <figure><img src={props.image} className='w-32 h-44' alt="image" /></figure>
           <div className="card-body">
@@ -18,9 +18,9 @@ function FreebookItem(props) {
             </div>
             <p>{props.description}</p>
             <div className="card-actions">
-              <div className='items-center flex flex-row w-fit mx-auto mt-4'>
-                <p className='bg-yellow-100 py-1 px-2 rounded-lg me-36 font-semibold'>${props.price}</p>
-                <Link className="bg-blue-500 py-2 px-3 rounded-md text-white font-semibold" to="showContent" ><button onClick={clickHandler}>Buy now</button></Link>
+              <div className='items-center flex flex-row w-fit mt-4 space-x-5'>
+                <p className='bg-yellow-100 py-1 px-2 rounded-lg lg:me-36 font-semibold'>${props.price}</p>
+                <Link className="bg-blue-500 py-2 px-3 rounded-md text-white font-semibold" to="showContent" ><button onClick={clickHandler}>View now</button></Link>
               </div>
             </div>
           </div>

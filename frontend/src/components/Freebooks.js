@@ -60,7 +60,7 @@ function Freebooks() {
 
   
   return (
-    <div className='lg:px-24 px-4 py-6 w-full'>
+    <div className='lg:px-24 md:px-12 px-4 py-6 w-full'>
       <div className={`w-full ${theme=== "#FFFFFF" ? "text-black" : "text-white"}`}>
         <h2 className='font-bold text-2xl'>Free offered courses</h2>
         <p className='py-2'>Explore our extensive collection of free books available for you. Enjoy a variety of genres, from timeless classics to modern masterpieces, all at no cost. Start reading without any financial commitment and discover your next favorite book today!</p>

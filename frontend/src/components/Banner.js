@@ -12,9 +12,9 @@ function Banner() {
   }
   return (
     <>
-      <div className={`flex md:flex-row flex-col-reverse mx-auto lg:px-24 md:px-12 px-4 w-full ${theme=== "#FFFFFF" ? "text-black" : "text-white"}`}>
+      <div className={`flex md:flex-row flex-col-reverse items-center lg:px-24 md:px-12 px-4 w-full ${theme=== "#FFFFFF" ? "text-black" : "text-white"}`}>
         <div className={`w-full md:w-1/2 md:pt-32 pt-4 items-center ${theme === "#FFFFFF" ? "text-black" : "text-white"}`}>
-               <h1 className='md:text-4xl text-2xl font-bold w-dull gap-y-3'>Hello , Welcome here to learn something <span className='text-pink-500'>new everyday!!!</span></h1>
+               <h1 className='md:text-4xl text-2xl font-bold w-full gap-y-3'>Hello , Welcome here to learn something <span className='text-pink-500'>new everyday!!!</span></h1>
           <p className='py-7 text-sm md:text-md'>your gateway to a world of books! Discover a vast collection spanning every genre and interest. Whether you're looking for the latest bestsellers or timeless classics, we have something for every reader. Sign up or log in to enjoy personalized recommendations and exclusive deals. Start your literary adventure with us today!</p>
                 <div className='w-full pt-4 pb-8'>
                       <label className="input input-bordered flex items-center gap-2">
@@ -22,8 +22,8 @@ function Banner() {
               <input type="text" className={`grow w-4 font-semibold ${theme=== "#FFFFFF" ? "text-black" : "text-black"}`} placeholder="Enter your email to login" onChange={handlecOnChange}/>
                       </label>
                 </div>
-          <a href="#" className='btn bg-pink-400 py-2 px-3 text-white' onClick={() => { document.getElementById("my_modal_3").showModal(); 
-           <Login email={email.email}/>}}>Secondary</a>
+          <button  className='btn bg-pink-400 py-2 px-3 text-white' onClick={() => { document.getElementById("my_modal_3").showModal(); 
+           <Login email={email}/>}}>Secondary</button>
             </div>
               <div className='w-full md:w-1/2 items-center'>
                   <img src={bookimg} />

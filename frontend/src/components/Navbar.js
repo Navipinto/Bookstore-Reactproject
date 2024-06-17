@@ -68,7 +68,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="max-w-screen-2xl fixed top-0 left-0 right-0 z-50">
+      <div className="w-full fixed top-0 left-0 right-0 z-50">
         <div className={`navbar md:px-12 lg:px-24 px-4  ${sticky?"shadow-md shadow-gray-100 bg-slate-700 duration-1000":"bg-slate-600 duration-700"}`}>
           <div className="navbar-start">
             <div className="dropdown text-white">
@@ -95,9 +95,9 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a href="#" className="text-sm cursor-pointer">
+            <Link to="/" className="text-sm cursor-pointer">
               <img className="w-52" src={logo}></img>
-            </a>
+            </Link>
           </div>
           <div className="navbar-end space-x-3">
 

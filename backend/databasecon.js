@@ -1,7 +1,7 @@
 
 const mongoose=require('mongoose')
 
-const mongooseURI = "mongodb://0.0.0.0:27017/bookstore"
+const mongooseURI = "mongodb+srv://navishaun13:navishaun13@bookstore.vtxfk71.mongodb.net/?retryWrites=true&w=majority&appName=Bookstore"
 
 const ConnectToMongoose=()=>{
     mongoose.connect(mongooseURI)

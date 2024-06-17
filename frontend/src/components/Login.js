@@ -7,6 +7,7 @@ import toast from 'react-hot-toast';
 function Login() {
   const context = useContext(Context)
   const { Loginhandle } = context
+  const [disable, setdisable] = useState(false)
 
   const {
     register,
@@ -16,6 +17,7 @@ function Login() {
 
   const onSubmit = async(data) =>
     {
+      setdisable(true)
     const token= await Loginhandle(data.email, data.password);
     if(token.status=="true")
       {
@@ -24,9 +26,11 @@ function Login() {
     document.getElementById("my_modal_3").close();
     <Login/>
     window.location.reload()
+    setdisable(false)
       }
       else{
       toast.error('Error while logging in');
+      setdisable(false)
       }
   }
 
@@ -57,7 +61,7 @@ function Login() {
               {errors.password && <span>This field is required</span>}
             </label>
             <div className='flex flex-row gap-16 items-center'>
-              <button className='py-2 px-3 bg-pink-500 rounded-md text-white font-semibold'>Submit</button>
+              <button className='py-2 px-3 bg-pink-500 rounded-md text-white font-semibold'>{disable?"Loading...":"Login"}</button>
               <p>Not registered?<Link to="signup" className='text-blue-400 underline'>Signup</Link></p>
             </div>
           </form>

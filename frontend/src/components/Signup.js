@@ -1,4 +1,4 @@
-import React, {useContext } from 'react'
+import React, {useContext, useState } from 'react'
 import { Link } from "react-router-dom";
 import Login from './Login';
 import Context from '../UseContext/Context'
@@ -8,6 +8,7 @@ import toast from 'react-hot-toast';
 function Signup() {
     const context = useContext(Context)
     const { Signuphandle } = context
+    const [disable, setdisable] = useState(false)
 
     const {
         register,
@@ -17,6 +18,7 @@ function Signup() {
 
     const onSubmit = async (data) => 
         {
+            setdisable(true)
             let token= await Signuphandle(data.username, data.email, data.password);
             if(token.status=="true")
                 {
@@ -25,9 +27,11 @@ function Signup() {
                     document.getElementById("my_modal_3").showModal();
                 }, 1000);
                 toast.success('Account created succesfully!');
+                setdisable(false)
             }
             else{
                 toast.error('Account creation failed!');
+                setdisable(false)
             }
         }
         const handleClick=()=>{
@@ -67,7 +71,7 @@ function Signup() {
                         {errors.password && <span>This field is required</span>}
                     </label>
                     <div className='flex flex-row gap-11 items-center'>
-                        <button className='py-2 px-3 bg-pink-500 rounded-md text-white font-semibold'  >Submit</button>
+                        <button className='py-2 px-3 bg-pink-500 rounded-md text-white font-semibold'  >{disable?"Loading...":"Signup"}</button>
                         <p>Not registered?<button className='text-blue-400 underline' onClick={handleClick}>login</button></p>
                         <Login />
                     </div>
